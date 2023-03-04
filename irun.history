@@ -1,0 +1,13 @@
+s1(11Feb2023:04:05:32):  irun -access +rwc comp_ab.v control.v data.v dff.v mux.v sub.v top.v 
+s2(11Feb2023:04:08:11):  irun -access +rwc comp_ab.v control.v data.v dff.v mux.v sub.v top.v 
+s3(11Feb2023:04:58:35):  irun -access +rwc top.v tb.v 
+s4(11Feb2023:04:59:25):  irun -access +rwc top.v tb.v dff.v control.v comp_ab.v sub.v 
+s5(11Feb2023:05:05:57):  irun -access +rwc top.v tb.v dff.v control.v comp_ab.v sub.v data.v mux.v 
+s6(11Feb2023:05:06:25):  irun -access +rwc top.v tb.v dff.v control.v comp_ab.v sub.v data.v mux.v 
+s7(11Feb2023:05:12:04):  irun -access +rwc top.v tb.v dff.v control.v comp_ab.v sub.v data.v mux.v 
+s8(11Feb2023:05:18:54):  irun -access +rwc top.v tb.v dff.v control.v comp_ab.v sub.v data.v mux.v 
+s9(11Feb2023:05:21:32):  irun -access +rwc top.v tb.v dff.v control.v comp_ab.v sub.v data.v mux.v 
+s10(11Feb2023:09:56:28):  irun -access +rwc top.v tb.v dff.v control.v comp_ab.v sub.v data.v mux.v 
+s11(11Feb2023:09:58:05):  irun -access +rwc top.v tb.v dff.v control.v comp_ab.v sub.v data.v mux.v 
+s12(11Feb2023:21:28:31):  irun -access +rwc top.v tb.v dff.v control.v comp_ab.v sub.v data.v mux.v 
+s13(11Feb2023:21:32:22):  irun -access +rwc top.v tb.v dff.v control.v comp_ab.v sub.v data.v mux.v 

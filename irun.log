@@ -1,0 +1,46 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Feb 11, 2023 at 21:32:22 IST
+irun
+	-access +rwc
+	top.v
+	tb.v
+	dff.v
+	control.v
+	comp_ab.v
+	sub.v
+	data.v
+	mux.v
+Recompiling... reason: file './control.v' is newer than expected.
+	expected: Sat Feb 11 09:58:01 2023
+	actual:   Sat Feb 11 21:32:19 2023
+file: control.v
+	module worklib.control:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.control:v <0x40420688>
+			streams:   2, words:  4850
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:             11       8
+		Registers:           15      14
+		Scalar wires:        11       -
+		Vectored wires:       7       -
+		Always blocks:        5       4
+		Initial blocks:       3       3
+		Cont. assignments:    4       2
+		Pseudo assignments:   3       3
+	Writing initial simulation snapshot: worklib.tb:v
+Loading snapshot worklib.tb:v .................... Done
+ncsim> source /tools/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+Simulation complete via $finish(1) at time 64 NS + 0
+./tb.v:24 $finish;
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Feb 11, 2023 at 21:32:22 IST  (total: 00:00:00)
